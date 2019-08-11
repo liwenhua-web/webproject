@@ -1,0 +1,51 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body{font-size: 12px;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+ul,ol{list-style: none}
+a{text-decoration: none;color:black}
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+img{vertical-align:top;border:none}
+.wrap{width:1000px;margin: 0px auto;}
+/*这是header部分*/
+.header{width:1000px;margin: 0px auto;margin-top: 50px;overflow: hidden;}
+.header_left{float: left;overflow: hidden;margin-left: 35px;}
+.header_left>img{padding-right: 10px;}
+.header_right{float:right;overflow: hidden;margin-right: 50px;}
+.header_right a{color:#025194;padding-right: 3px;}
+.header_right input{width: 300px;height:22px;margin-top:5px;border-radius: 8px;}
+/*.header-right input img{position: absolute;right:0px;}*/
+.headermenu{width: 100%;height:37px;background-color: #015293;margin-top: 14px;}
+.headermenu img{margin-left: 64px;margin-top: 5px;}
+.headermenu ul{overflow: hidden;width:1000px;margin: 0px auto;}
+.headermenu ul li{float: left;border-right: 1px solid #BFBFBF;}
+.headermenu ul li a{font-size: 17px;font-weight: bolder;color:white;display: block;padding:0px 23px;height:37px;line-height: 37px;}
+.headermenu ul li a:hover{background-color:#006AC0;}
+/*这是footer部分*/
+.footer{}
+.footer_toptab{border-top:8px solid #00558F;}
+.footer_toptab{padding-top: 15px;}
+.footer_toptab td{padding:3px 30px;}
+.footer_toptab .tr1{font-weight: bolder;font-size: 14px;}
+.footer_link{border-top: 1px solid #BABABA;border-bottom: 1px solid #BABABA;margin-top: 20px;}
+.footer_link ul{overflow: hidden;margin: 10px 23px;}
+.footer_link ul li{float: left;padding:8px 10px;}
+.footer_link ul li a{display: block;font-size: 14px;word-spacing: 12px;}
+.footer_link ul li a:hover{color:#025194;}
+.footer_link ul>li{text-align: center;}
+.footer_nav{margin-left: 20px;margin-top: 28px;}
+.footer_nav img{margin-top: 3px;}
+.footer_nav ul{overflow: hidden;position:relative;width:1000px;height:275px; }
+.footer_nav ul li{float: left;padding:5px 15px; }
+.footer_nav ul li div{position:absolute;background-color:#E5E5E5;left:0px;display:none;width:1000px;height:275px;}
+.footer_nav ul li table{display:block;margin-left: 3px;z-index: 999;}
+.footer_nav ul li:hover div{display:block;}
+.footer_nav ul li a:hover{color:#025194;}
+.footer_nav ul li table td{padding:5px 15px;}
+.footer_bottom{border-top: 1px solid #BABABA;word-spacing: 12px;}
+.footer_bottom_left{float: left;margin-left: 30px;margin-top: 18px;}
+.footer_bottom_left>img{float: left}
+.footer_bottom_left ul{overflow: hidden;float:left;}
+.footer_bottom_left ul li{float:left;padding-top:8px;padding-right:10px;}
+.footer_bottom_right{margin-top: 18px;}
+.footer_bottom_right a{float: right;padding:0px 10px;}

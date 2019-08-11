@@ -1,0 +1,83 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, form, fieldset, legend, button, input, textarea, th, td {margin:0px;padding:0px;}
+a{
+    text-decoration: none;
+    color:#000000;
+}
+ul,ol{list-style: none;}
+img{
+    /*vertical-align: top;*/
+    outline-width: 0px;
+}
+.header{
+    font-size: 1.1em;
+    width:100%;
+    overflow: hidden;
+    /*height:20%;*/
+    /*position: fixed;*/
+}
+.header .logo{float:left;margin:5px 15px;}
+.header ul{
+   /* width:56%;*/
+    overflow: hidden;
+    position: relative;
+    float:right;
+    margin-right:0.5%;
+    margin-top: 2.6%;
+}
+.header ul li{
+    float:left;
+    /*padding: 0.6% 3%;*/
+    padding:5px 15px;
+    border-left: 1px solid #EEEEEE;
+}
+.header ul li a{
+    display: block;
+}
+/*.header ul li div{
+    position: absolute;
+    left:0%;
+    display: none;
+}
+.header ul li:hover div{
+    display: block;
+}*/
+.footer{
+    width:100%;
+    height: 20%;
+    overflow: hidden;
+    background-color: black;
+}
+.footer p{
+    color:white;
+    float: left;
+  /*  padding-right: 10%;*/
+}
+.footer div{
+    padding: 7% 0% 3% 6%;
+    -webkit-column-count:4;
+}
+.footer img{
+    margin-left: 45%;
+    margin-bottom: 2%;
+}
+@media (min-width:992px ) {
+    .border {display: none;}
+}
+@media (min-width: 768px) and(max-width: 992px){
+    html{font-size:45%}
+    .border {display: block;}
+    .header .hidenav ul{display: none;background-color: black;}
+    .hidenav ul li {float: none;width:100%;}
+    .hidenav ul li a{color:white;}
+    .border:hover~ul{display: block}
+}
+@media (max-width:768px ) {
+    .border {display: block;}
+   /* .header{position:fixed;width:100%;overflow:hidden}*/
+    .header .hidenav ul{display: none;float:right;background-color: black;position: fixed;}
+    .hidenav ul li {float: none;width:100%;margin-top: 50px;}
+    .hidenav ul li a{color:white;}
+    .border:hover~ul{display: block}
+    .footer div{ -webkit-column-count:2;}
+    .footer img{margin-left: 36%}
+}

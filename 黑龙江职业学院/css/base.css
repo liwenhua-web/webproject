@@ -1,0 +1,527 @@
+div,span,p,img,h1,h2,h3,h4,h5,h6,a,body,input{
+    margin: 0px;
+    padding: 0px;
+}
+img,input{
+    border: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+.xian20{
+    width: 100%;
+    height: 20px;
+}
+.xian10{
+    width: 100%;
+    height: 10px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.left:after,.right:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.clear{
+    overflow: hidden;
+    clear: both;
+}
+/*头部*/
+.sy .header_box{
+    height: 162px;
+}
+.sy .header{
+    height:110px;
+    background-color: #01488a;
+}
+.sy .header_main{
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+}
+.sy .content-left a{
+    padding-top: 15px;
+    display: block;
+}
+.sy .content-right a{
+    padding-right: 10px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+.sy .content-right img{
+    vertical-align: middle;
+}
+/*首页导航栏*/
+.sy .nav{
+    width: 100%;
+    background-color: #ededed;
+
+}
+.sy .nav>ul{
+    height: 52px;
+    width: 1200px;
+    margin: 0px auto;
+}
+.sy .nav>ul>li{
+    float: left;
+    height: 52px;
+    position: relative;
+}
+.sy .nav>ul:after {
+    content: "";
+    display: none;
+    clear: none;
+}
+.sy .nav>ul>li>a{
+    color:black;
+    font-size: 15px;
+    width: 120px;
+    line-height: 52px;
+    height: 52px;
+    text-align: center;
+    display: block;
+}
+.sy .nav>ul>li .two{
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(10,10,10,0.6);
+    display: none;
+}
+.sy .nav>ul>li .two a{
+    height: 32px;
+    line-height: 32px;
+    color: #ffffff;
+    font-size: 13px;
+
+}
+
+/*首页中间内容*/
+.sy .sy_main_box{
+
+}
+/*轮播图*/
+.sy .rotate_img{
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+.sy .rotate_img .rotate_img_content{
+    position: relative;
+    width: 1200px;
+    height:350px;
+    margin: 0px auto;
+}
+.sy .rotate_img .rotate_img_content .sy_test{
+    opacity: 1;
+}
+.sy .rotate_img .rotate_img_content img{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width: 1200px;
+    height:350px;
+    opacity: 0;
+}
+.sy .rotate_img ul{
+    overflow: hidden;
+    width: 210px;
+    position: absolute;
+    left:500px;
+    bottom: 15px;
+}
+.sy .rotate_img ul li{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    background-color: #ffffff;
+    border-width:5px;
+    border-style:solid;
+    border-color:transparent;
+    float: left;
+}
+.sy .rotate_img ul .rotate_img_button{
+    background-color: transparent;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00544C;
+}
+/*龙职新闻*/
+.sy_main1_box{
+    width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.sy_main1_content1{
+    width: 445px;
+    margin-right: 20px;
+}
+.sy_main1_content1 .list{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #f3f3f3
+}
+.sy .a_font1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #347ada;
+    line-height: 30px;
+}
+.sy .p_font1 img,.sy .p_font1 .a_font1{
+    vertical-align: middle;
+}
+.sy .p_font1 img{
+    margin: 0px 10px;
+}
+.sy .a_font2{
+   color: black;
+    float: right;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.sy .a_font2:hover{
+    color: red;
+}
+.font1{
+
+}
+.sy_main1_content1 .date{
+    /*border: 1px solid blue;*/
+    overflow: hidden;
+    padding: 5px 0px;
+}
+.sy_main1_content1 .date .date_left p:nth-child(1){
+    width: 80px;
+    font-size:24px ;
+    color: #347ada;
+    height: 35px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.sy_main1_content1 .date .date_left p:nth-child(2){
+    font-size: 14px;
+    color: #ffffff;
+    height: 29px;
+    line-height: 29px;
+    width: 80px;
+    background-color: #347ada;
+    text-align: center;
+}
+
+.sy_main1_content1 .date .date_right{
+    width: 340px;
+}
+.sy_main1_content1 .date .date_right p:nth-child(1) a{
+    font-size: 15px;
+    color: #fd711c;
+}
+.sy_main1_content1 .date .date_right p:nth-child(2) a {
+    color: #70a5ee;
+    font-size: 12px;
+}
+.sy .sy_main1_ul1 li{
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+}
+.sy .sy_main1_ul1 li a{
+    color: #333;
+}
+.sy .sy_main1_ul1 li a:hover{
+    color: #fd711c;
+}
+/*媒体焦距*/
+.sy_main1_content2{
+    width: 355px;
+}
+.sy_main1_content2 .list{
+    overflow: hidden;
+
+    border-bottom: 2px solid #f3f3f3
+}
+.sy .sy_main1_ul2 li{
+    line-height: 30px;
+    height: 30px;
+    text-indent: 10px;
+
+}
+.sy .sy_main1_ul2 li a{
+    font-size: 13px;
+    color: #333;
+    text-indent: 10px;
+}
+.sy .sy_main1_ul2 li p{
+    font-size: 12px;
+}
+
+.sy .sy_main1_ul2 li:hover p,.sy .sy_main1_ul2 li:hover a{
+    color: #fd711c;
+}
+.sy_main1_content3 ul li:nth-child(1) a{
+    font-size: 16px;
+    color: #fd711c;
+    font-weight: bold;
+}
+/*首页第二部分-喜迎新中国成立*/
+.sy_main2_box,.sy_main3_box,.sy_main4_box,.sy_main5_box{
+    width: 1200px;
+    margin: 0px auto;
+}
+.sy_main3_box ul{
+    width: 100%;
+    overflow: hidden;
+}
+.sy_main3_box ul li{
+    float: left;
+    margin-right: 10px;
+}
+.sy_main3_box ul .last{
+    margin-right: 0px;
+}
+.sy_main3_box ul li img{
+    width: 290px;
+    height: 185px;
+}
+.sy_main3_box ul li div{
+    margin-top: -4px;
+    width: 270px;
+    padding: 10px;
+    text-align: center;
+}
+.sy_main3_box ul li:nth-child(1) div{
+    background-color: #E38D93;
+}
+.sy_main3_box ul li:nth-child(2) div{
+    background-color: #79CAC4;
+}
+.sy_main3_box ul li:nth-child(3) div{
+    background-color: #5CABE7;
+}
+.sy_main3_box ul li:nth-child(4) div{
+    background-color: #BF8CC1;
+}
+.sy_main3_box ul li div a{
+    font-size: 16px;
+    color: #ffffff;
+}
+/*首页第四部分-教育教学/校企合作*/
+.sy .sy_main4_box{
+    overflow: hidden;
+}
+.sy_main4_box .list2{
+    overflow: hidden;
+    border-top: 2px solid #347ada;
+}
+.sy_main4_box .list2 p{
+    padding-left: 25px;
+    height: 42px;
+    line-height: 42px;
+}
+.sy .sy_main4_box>div{
+    overflow: hidden;
+    border: 1px solid #e2ddd1;
+    width:384px;
+    float: left;
+    margin-right: 20px;
+    background-color: #F9F9F9;
+}
+.sy .sy_main4_box div:nth-child(3){
+    margin-right: 0px;
+}
+.sy .sy_main4_box>div ul{
+    padding: 0px 10px;
+}
+.sy_main4_img{
+  text-align: center;
+    padding: 10px 0px;
+}
+/*首页第五部分专题网站*/
+.sy_main5_box p img{
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+.sy_main5_box p span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #347ada;
+    height: 26px;
+    line-height: 26px;
+    vertical-align: middle;
+    padding: 0px 10px;
+}
+.sy_main5_box>div{
+    width: 100%;
+}
+.sy_main5_box>div ul{
+    overflow: hidden;
+    padding: 20px 0px;
+}
+.sy_main5_box>div ul li{
+    width: 67px;
+    float: left;
+    margin: 0px 16.5px;
+}
+.sy_main5_box>div ul li div a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.sy_main5_box>div ul li div{
+   width: 67px;
+    height: 67px;
+    border-radius: 50%;
+}
+.sy_main5_box>div ul li div:hover{
+    background-color: brown;
+}
+.sy_main5_box>div ul li div{
+    background:no-repeat center #F2F8F6;
+}
+.sy_main5_box>div ul li:nth-child(1) div{
+    background-image: url("../img/sy_zt_01.png");
+}
+.sy_main5_box>div ul li:nth-child(2) div{
+    background-image: url("../img/sy_zt_02.png");
+}
+.sy_main5_box>div ul li:nth-child(3) div{
+    background-image: url("../img/sy_zt_03.png") ;
+}
+.sy_main5_box>div ul li:nth-child(4) div{
+    background-image: url("../img/sy_zt_04.png");
+}
+.sy_main5_box>div ul li:nth-child(5) div{
+    background-image: url("../img/sy_zt_05.png") ;
+}
+.sy_main5_box>div ul li:nth-child(6) div{
+    background-image: url("../img/sy_zt_06.png");
+}
+.sy_main5_box>div ul li:nth-child(7) div{
+    background-image: url("../img/sy_zt_07.png") ;
+}
+.sy_main5_box>div ul li:nth-child(8) div{
+    background-image: url("../img/sy_zt_08.png");
+}
+.sy_main5_box>div ul li:nth-child(9) div{
+    background-image: url("../img/sy_zt_09.png");
+}
+.sy_main5_box>div ul li:nth-child(10) div{
+    background-image: url("../img/sy_zt_10.png");
+ }
+.sy_main5_box>div ul li:nth-child(11) div{
+    background-image: url("../img/sy_zt_11.png");
+  }
+.sy_main5_box>div ul li:nth-child(12) div{
+    background-image: url("../img/sy_zt_12.png");
+   }
+/*悬浮图片变换*/
+.sy_main5_box>div ul li:nth-child(1) div:hover{
+    background-image: url("../img/sy_LM1.png");
+}
+.sy_main5_box>div ul li:nth-child(2) div:hover{
+    background-image: url("../img/sy_LM2.png");
+}
+.sy_main5_box>div ul li:nth-child(3) div:hover{
+    background-image: url("../img/sy_LM3.png") ;
+}
+.sy_main5_box>div ul li:nth-child(4) div:hover{
+    background-image: url("../img/sy_LM4.png");
+}
+.sy_main5_box>div ul li:nth-child(5) div:hover{
+    background-image: url("../img/sy_LM5.png") ;
+}
+.sy_main5_box>div ul li:nth-child(6) div:hover{
+    background-image: url("../img/sy_LM6.png");
+}
+.sy_main5_box>div ul li:nth-child(7) div:hover{
+    background-image: url("../img/sy_LM7.png") ;
+}
+.sy_main5_box>div ul li:nth-child(8) div:hover{
+    background-image: url("../img/sy_LM8.png");
+}
+.sy_main5_box>div ul li:nth-child(9) div:hover{
+    background-image: url("../img/sy_LM9.png");
+}
+.sy_main5_box>div ul li:nth-child(10) div:hover{
+    background-image: url("../img/sy_LM10.png");
+}
+.sy_main5_box>div ul li:nth-child(11) div:hover{
+    background-image: url("../img/sy_LM11.png");
+}
+.sy_main5_box>div ul li:nth-child(12) div:hover{
+    background-image: url("../img/sy_LM12.png");
+}
+
+.sy_main5_box>div ul li p{
+    width: 65px;
+    text-align: center;
+    line-height: 24px;
+    padding-top: 6px;
+    display: block;
+}
+.sy_main5_box>div ul li p a{
+    color: #222;
+    font-size: 14px;
+}
+/*首页的尾部*/
+.sy .footer{
+    width: 100%;
+    background-color: #085893;
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 20px 0px 0px 0px;
+}
+.sy .footer ul{
+    width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.sy .footer ul .p1{
+    padding-right: 20px;
+}
+.sy .footer ul li{
+    float: left;
+    padding-right: 15px;
+}
+.sy .footer ul li a{
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 13px;
+}
+.sy .footer-content{
+    width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.sy .footer-content-right{
+
+}
+.sy .footer-content-right img{
+    width: 100px;
+    height: 100px;
+}
+.sy .footer-content-right span{
+    display: block;
+    float: left;
+    text-align: center;
+}
+.sy .footer-content-right span:nth-child(1){
+    margin-right: 20px;
+}

@@ -1,0 +1,66 @@
+/*这是main的左侧*/
+.main_left{width:270px;background-color: #EFF3F4;font-size: 14px;float: left;overflow: hidden;}
+.main_leftblock1{width:250px;height:237px;margin-left: 10px;border-left: 1px solid #999999;border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;margin-bottom: 10px;}
+.main_leftblock2{width:250px;height:185px;margin-left: 10px;border-left: 1px solid #999999;border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;margin-bottom: 10px;}
+.main_lefttitle{background-image: url("../img/main_leftbg.jpg");height:33px;overflow: hidden;width:250px;}
+.main_lefttitle p{float: left;height:33px;line-height: 33px;font-weight: 600;}
+.main_lefttitle a{float: right;height:33px;line-height: 33px;font-weight: 600;}
+.main_ul ul{margin-left:5px;}
+.main_ul ul li{padding:5px 0px;}
+.main_ul ul li a{color:#104F70;}
+.main_ul ul li a:hover{color:#FF6633;}
+.bottom_a{float:right;font-size: 12px;}
+a:hover{color:#FF6633; }
+.main_leftsearch{width:270px;height:105px;background-color: #DCEBF0;}
+.main_leftsearch input{width:140px;height:20px;margin-right: 5px;}
+.main_leftsearch button{width:88px;height:21px;background-image: url("../img/buttonbg.jpg");border:1px solid #9D9D9D;}
+.main_leftsearch p{margin:10px;margin-top: 10px;}
+.searchfirst_p{padding-top: 10px;}
+/*这是main的中间*/
+/*这是center第二块*/
+.main_center{float:left;margin-left: 10px;overflow: hidden;}
+.main_center>img{padding-bottom: 11px;}
+.main_centerblock1{width:394px;height:237px;border-left: 1px solid #999999;border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;margin-bottom: 10px;}
+.main_centertitle{background-image: url("../img/main_leftbg.jpg");height:33px;overflow: hidden;width:394px;}
+.main_centertitle p{float: left;height:33px;line-height: 33px;font-weight: 600;}
+.main_centerblock1 span{float:right;}
+/*这是center第三块*/
+.main_centerblock{width:398px; }
+h4{text-align: center;color:#104F70;margin:8px auto;}
+.main_centerblock>img{float:left;overflow: hidden;padding-right:20px;}
+.main_centerblock span{float:right;}
+.main_ul1 ul li{padding:5px 0px;}
+.main_ul1 ul li a{color:#2B2B2B;}
+.main_ul1 ul li a:hover{color:#FF6633;}
+.main_centerblock>.bottom_a{padding-bottom: 15px;}
+.main_centerph{margin-left: 10px;margin-bottom: 10px;}
+/*这是main的右侧*/
+.main_right{float:left;overflow: hidden;margin-top: -587px;margin-left: 10px;width:303px;}
+.main_rightform{float: left;width:300px;height:233px;overflow: hidden;border-top: 4px solid #C50405;word-spacing: 8px;
+    border-left: 1px solid #999999;border-right: 1px solid #999999;border-bottom: 1px solid #999999;margin-bottom: 10px;}
+.main_rightform ul{position: relative;height:233px;margin-top: 8px;margin-bottom: 10px;}
+.main_rightform ul li{float: left;}
+.main_rightform ul li a{padding:8px 20px;}
+.main_rightform ul li div{position: absolute;left:0px;display: none;background-color: white;}
+.main_rightform ul li .form1{display: block;}
+.main_rightform ul li:hover div{display:block; }
+.main_rightform ul li a:hover {color: black;}
+.main_rightform input{width:120px;height:26px;}
+.main_rightform .input1{width:210px;}
+.form_lefta{float:left;padding-left: 20px;}
+.form_righta{float:right;}
+/*.firstp{margin-top: 10px;}*/
+.main_rightform button{width:86px;height:31px;background-image: url("../img/formbuttonbg.jpg");margin-left: 110px;}
+ /*.form1 button{width:86px;height:31px;background-image: url("../img/formbuttonbg.jpg");margin-left: 110px;}*/
+ /*.form2>button{width:86px;height:31px;background-image: url("../img/formbuttonbg.jpg")}*/
+.main_rightform p{padding-top:10px;padding-left: 20px;}
+.main_righttitle{background-image: url("../img/main_leftbg.jpg");width:300px;height:33px;overflow: hidden;  }
+.main_righttitle p{float: left;height:33px;line-height: 33px;font-weight: 600;}
+.main_rightblock{border-left: 1px solid #999999;border-right: 1px solid #999999;border-bottom: 1px solid #999999;height:237px;}
+.main_rightblock1{margin-top: 101px;}
+.main_rightblock,.main_rightblock1,.main_rightblock2 span{float:right;}
+.main_rightblock1>.bottom_a{padding-bottom: 7px;}
+.lastspan{margin-right: 33px;}

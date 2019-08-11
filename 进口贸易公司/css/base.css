@@ -1,0 +1,152 @@
+*{margin:0px;padding:0px;}
+a{text-decoration: none;color:black}
+a:hover{text-decoration: none;}
+img{width:100%}
+ul{list-style: none;}
+/*这是首页*/
+/*这是首页头部*/
+#headernav{width:80%;background-color: transparent}
+#headernav nav{margin-top:25px;margin-right:12%}
+#headernav nav ul li a{font-size: 1.2em;color:#000000}
+#headernav nav ul li a:hover{color:#07A41D;}
+#headernav nav ul li:nth-child(1) a{color:#07A41D;border-bottom:2px solid #07A41D}
+#indexlunbo img{width:100%;margin-top: 1%;height:auto;}
+#headerimg{width:80%;padding-right: 2%}
+/*首页section部分*/
+section{width:90%;margin:0px auto;}
+.index_title,.index_more{text-align: center}
+.index_title{margin-bottom: 3%;transition: all 2s ease}
+/*.index_part2 :hover img{transform: scale(1.5)}*/
+/*.index_part2 img{transition: all ease 1s}*/
+.index_part1 div a{color:black;}
+.index_part1 a:hover{text-decoration: none}
+.index_part1,.index_part2,.index_part3{padding:5% 0%}
+/*这是首页part2部分*/
+.index_part2{background-color:#F5F5F5}
+.index_part2 a{color:#000000;position:relative;height:335px;margin-top: 1%}
+.xwzx_part2img{width:30%}
+.index_part2 a:hover h4{color:#35A41D;text-decoration: none;}
+.index_part2 a:hover{text-decoration: none;color:black}
+.index_part2_block{
+    background-color: white;
+    padding:5% 2%;
+    position: absolute;
+    width:90.5%;
+}
+/*这是首页part3部分*/
+.index_part3 a{color:#000000}
+.index_part3 a p{padding-left:2%;font-size: 1.2em}
+.index_part3 a:hover{color:#35A41D;}
+.index_part3 a:hover span{color:#666666}
+.index_part3 a span{color:#666666}
+.index_part3_logo{display:block;width:13%;padding-top:18%}
+/*这是首页part4部分*/
+.index_part4{
+    background:url(../img/index_bg.jpg) ;
+    background-attachment: fixed;
+    font-size: 1.2em;
+    background-size:100%;
+    color:white;
+}
+.index_part4 div{width:100%;background-color:rgba(122,152,209,0.6);padding:8% 13% 15% 13% }
+.index_part4 p:nth-child(3){padding-bottom:3%}
+.index_part4 .index_more a{border-color:white;color:white;}
+.index_part4 .index_more:hover a{border-color:#35A41D;}
+/*这是首页更多跳转*/
+.index_more a{padding:10px 50px;border:1px solid #35A41D;color:#35A41D }
+.index_more {margin-top:4%;font-size: 1.2em}
+.index_more:hover a{background-color: #35A41D;color:white;text-decoration: none;}
+/*index_part1动画部分*/
+.index_part1_bg{
+    position:relative;
+    background-color:#F0F0F0;
+    width:250px;height:160px;
+   margin-top:5%
+    }
+.index_part1_bg a{
+    display: block;
+    position: absolute;
+    background-color: white;
+    right:10px;bottom:10px;
+    z-index:2
+}
+/*首页footer部分*/
+footer{width:100%;margin:0px auto;margin-top:5%;background-color: #F0F0F0;padding-bottom: 2%}
+#footer nav{margin-right:15%;}
+footer nav{margin-top:3%;margin-right:15%;margin-bottom: 1%;}
+footer nav ul{margin-top: 1%}
+footer nav ul li a{font-size: 1.2em;color:#000000}
+footer nav ul li a:hover{color:#07A41D;}
+#footer nav ul li a:hover{background-color: transparent}
+.footer_bottom {padding-top:3%;border-top:1px solid #C0C0C0}
+#footerimg{width:35%;padding-left: 5%;}
+
+/*这是新闻资讯页面*/
+.xwzx_part1{margin:5% 0%;width:100%;}
+.xwzx_part1 a{padding:10px 40px;background-color: #F2F2F2;margin-right:1%;color:black}
+.xwzx_part1 a:hover{text-decoration: none;background-color: #07A41D;color:white;}
+.xwzx_part2{width:100%;}
+.xwzx_part2right{width:70%;padding-left:3%}
+.xwzx_part2logo{width:5%}
+.xwzx_part2 p a{color:black;border:1px solid #CCCCCC;padding:10px 40px;}
+.xwzx_part2 p a:hover{text-decoration: none;background-color: #07A41D;color:white;}
+.xwzx_part2 p:nth-child(4){margin-top:6%}
+.xwzx_part2 p:nth-child(1){font-size:1.3em;font-weight: bolder }
+.xwzx_part3{width:100%;margin-top:3%}
+.xwzx_part3 a{display: block;border-top:1px solid #E6E6E6}
+.xwzx_part3 div:nth-child(1){color:#808080;font-size: 1.2em;width:10%;margin:2%;padding-left: 2%}
+.xwzx_part3 div:nth-child(1) p{font-weight: bold;font-size: 1.3em;padding-right: 2%}
+.xwzx_part3 div:nth-child(2){width:80%;}
+.xwzx_part3 div:nth-child(2) h4{color:black;padding-left: 3%;padding-top:3%;font-weight: bolder}
+.xwzx_part3 div:nth-child(2) p{color:#808080;}
+.xwzx_part3 a:hover{text-decoration: none; }
+.xwzx_part3 a:hover h4{color:#07A41D}
+.xwzx_tiao{margin-top:3%;text-align: center}
+.xwzx_tiao span{font-weight: bolder}
+.xwzx_font{padding-left: 3%;}
+.xwzx_font p:nth-child(1){text-indent: 1.5em}
+.xwzx_part3 .xwzx_font{display:none}
+/*这是服务项目页面*/
+.fwxm_part2 a:hover{text-decoration: none;}
+.fwxm_part2 a:hover p{color:#07A41D;font-weight: bolder}
+.fwxm_part2 a p{font-size: 1.2em;color:black;margin-top: 2%}
+.fwxm_part2 a{
+    margin-top: 1%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition:all 1s ease;
+}
+#fwxm_p a{color:#808080;}
+#fwxm_p a:hover{color:#07A41D;text-decoration: none;}
+#fwxm_p span,a{padding-right: 2%}
+#fwxm_p{margin-top: 57%}
+.fwxm_part2 a:nth-child(1) .fwxm_part2img{background: url("../img/fwxm_part2_1.jpg") center}
+.fwxm_part2 a:nth-child(2) .fwxm_part2img{background: url("../img/fwxm_part2_2.jpg") center}
+.fwxm_part2 a:nth-child(3) .fwxm_part2img{background: url("../img/fwxm_part2_3.jpg") center}
+.fwxm_part2 a:nth-child(4) .fwxm_part2img{background: url("../img/fwxm_part2_4.jpg") center}
+.fwxm_part2 a:nth-child(5) .fwxm_part2img{background: url("../img/fwxm_part2_5.jpg") center}
+.fwxm_part2 a:nth-child(6) .fwxm_part2img{background: url("../img/fwxm_part2_6.jpg") center}
+.fwxm_part2 a  .fwxm_part2img{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:auto}
+/*这是联系我们页面*/
+#lxwm_part2{margin-top: -2%;margin-bottom: 2%}
+#lxwm_part2 p:nth-child(1){font-size: 1.8em;font-weight:600}
+/*地图部分*/
+.lxwm_part3{width:100%;height:100%;text-align: center;border:1px solid #000000}
+.fwxm_part2 a .fwxm_part2img:hover{background-size: 120%}
+.fwxm_part2 a .fwxm_part2img{width: 100%;height:237px}
+@media all and (max-width: 1200px){
+    .fwxm_part2 a .fwxm_part2img:hover{background-size: 120%}
+    .xwzx_part2img{width:30%}
+}
+@media all and (max-width: 992px){
+    .fwxm_part2 a .fwxm_part2img:hover{background-size: 180%}
+    .xwzx_part2img{width:40%}
+}
+@media all and (max-width: 768px){
+    .fwxm_part2 a .fwxm_part2img:hover{background-size: 300%}
+    .xwzx_part2img{width:80%}
+}

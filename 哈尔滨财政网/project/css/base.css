@@ -1,0 +1,29 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+ul,ol{list-style: none}
+a{text-decoration: none;color:black}
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+img{vertical-align:top;border:none}
+/*这是top*/
+body{background-color:#ECFFF7;}
+.wrap{width: 1000px;margin:0px auto;background-color: white;}
+.header .topbg{outline-width: 0px;width:100%;height:196px;}
+.header .louimg{outline-width: 0px;float: left;}
+.header .topnav{background-image: url("../img/menu_bg.jpg");
+    height:39px;width:1000px; float:right;position: relative;zoom:1;
+   }
+.header ul {overflow: hidden;float: left;}
+.header ul li{float:left;list-style-type:none;padding:0px 10px;margin-left: 9px;}
+.header ul li a{ text-decoration : none;
+    color:black;display:block;font-weight: bolder;height: 37px;line-height: 37px;}
+.header ul li a:hover{color:indianred;}
+/*这是尾部*/
+.footer{background-image: url("../img/footerbgcolor.jpg");height:200px; }
+.footer p,span{text-align: center;font-size: 12px;padding: 5px 0px; }
+.footer .firstp{padding-top: 20px;}
+.lastp{color:darkgray;}
+.footer p>span{color:orange;font-weight: bold;}
+.footer p+span{margin-left: 80px;}
+.footer .footerphred{float: left;margin: 50px 0px 0px 200px}
+.footer .footerphjiucuo{float:right;margin: 60px 200px 0px 0px}

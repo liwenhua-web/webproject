@@ -1,0 +1,97 @@
+html{font-size: 1em;}
+.jszxl_center{
+    width:100%;
+}
+.jszx_part1{
+    width:100%;
+    position:relative ;
+}
+.jszx_part1 img{
+    width:99%;
+    margin-left:0.5%;
+    background-color: #000000;
+}
+.jszx_part1 div{
+    position:absolute;
+    top:40%;
+    left:45%;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+}
+.jszx_part1 div p{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5em;
+    line-height:2em ;
+}
+.jszx_part2{
+    overflow: hidden;
+    padding: 5% 2%;
+    width:100%;
+}
+.jszx_part2_content{
+    /*width:33%;*/
+    float: left;
+    padding-bottom: 3%;
+    position: relative;
+    /*-webkit-transition: all 3s ease;*/
+    padding-right:2%;
+    width:407px;
+    height:233px;
+    overflow: hidden;
+}
+.jszx_part2_content .bgimg{
+    width:407px;
+    height:233px;
+    background-size:100%;
+}
+.jszx_part2_content:nth-child(1) .bgimg{
+    background:url("../img/jszx-part2-1.jpg") center;
+}
+.jszx_part2_content:nth-child(2) .bgimg{
+    background:url("../img/jszx-part2-2.jpg") center;
+}
+.jszx_part2_content:nth-child(3) .bgimg{
+    background:url("../img/jszx-part2-3.jpg") center;
+}
+.jszx_part2_content:nth-child(4) .bgimg{
+    background:url("../img/jszx-part2-4.jpg") center;
+}
+.jszx_part2_content:hover .bgimg{
+    background-size: 120%
+}
+.jszx_part2_content .word{
+    width:407px;
+    height:233px;
+    text-align: center;
+    background-color: #ffffff;
+    opacity: 0.8;
+    position: absolute;
+    top:69%;
+    left:0%;
+}
+.jszx_part2_content .word p:nth-child(1){
+    font-size: 1.2em;
+    font-weight: 400;
+    color:#424242;
+    padding-top: 3%;
+}
+.jszx_part2_content .word p:nth-child(2){
+    color:#5A5A5A ;
+    padding-top: 5%;
+    display: none;
+}
+.jszx_part2_content:hover .word p:nth-child(2){display: block}
+.jszx_part2_content:hover .word{
+    top:0%;
+}
+@media (min-width: 768px) and(max-width: 992px){
+    html{font-size:45%}
+}
+@media (max-width:768px ) {
+    html{font-size:35%}
+    .jszx_part2 {-webkit-column-count: 1}
+    .jszx_part2_content .word p{font-weight: bold}
+    .jszx_part2_content .word p:nth-child(1){font-weight: bold}
+}

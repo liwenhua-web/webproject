@@ -1,0 +1,28 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0;font-size: 12px; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+ul,ol{list-style: none}
+a{text-decoration: none;color:black}
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+img{vertical-align:top;border:none}
+.wrap{width:1000px;margin: 0px auto;}
+.header_top{overflow: hidden;background-image: url("../img/header_topbg.jpg");height:34px;}
+.header_top p{float:left;margin:9px;;}
+.header_top ul{float: right;}
+.header_top ul li{float: left;}
+.header_top ul li a{display: block;padding-right: 18px;height:34px;line-height: 34px;}
+.header_top ul li a:hover{color:#FF6633;}
+a:hover{color:#FF6633;}
+.header_nav{background-image: url("../img/header_navbg.jpg");height:56px;}
+.header_nav ul{overflow: hidden}
+.header_nav ul li{float: left;}
+.header_nav ul li a{display: block;height:56px;line-height:56px;padding:0px 20px;color: white;font-size: 14px;font-weight: 600;word-spacing: 14px;}
+.friendlink{height:125px;border-top:3px solid #C20608;border-left:1px solid #999999;
+    border-bottom:1px solid #999999;border-right:1px solid #999999;
+    margin-bottom: 10px;margin-top: 10px;}
+.friendlink p{background-image: url("../img/friendlinkbg.jpg");height:29px;line-height: 29px;font-weight: bold;}
+.footer{border-top: 5px solid #F26665;background-color: #F0F3F4;}
+.footer_firstp{padding-top: 8px;}
+.footer p{text-align: center;margin:5px 0px;}
+.footer_secondp{border-top: 1px solid #9A9A9A;padding-top: 10px;}
+.footer img{margin-top: 20px;margin-right: 8px;}
