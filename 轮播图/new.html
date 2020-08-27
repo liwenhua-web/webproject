@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="jquery-1.10.2.js"></script>
+		<style type="text/css">
+			*{
+				margin:0px;
+				padding: 0px;
+				background-color: aqua;
+			}
+			.wrap{
+				width: 500px;
+				margin: 50px auto;
+			}
+			.box{
+				position: relative;
+				height: 400px;
+			}
+			img{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 500px;
+				height: 400px;
+				opacity: 0;
+			}
+			.text{
+				opacity: 1;
+			}
+		</style>
+		<script type="text/javascript">
+			$(function(){
+				setInterval("fun()",3500)
+			})
+			function fun(){
+				var v1=$(".text")
+				var v2
+				if(v1.next().length==0){
+					v2=$("img:first")
+				}
+				else{
+					v2=v1.next()
+				}
+				v1.animate({opacity:0},500,function(){
+					v1.removeClass("text")
+				})
+				v2.animate({opacity:1},500,function(){
+					v2.addClass("text")
+				})
+			}
+		</script>
+	</head>
+	
+	<body>
+		<div class="wrap">
+			<div class="box">
+				<img class="text" src="img/1.jpg" >
+				<img src="img/2.jpg" >
+				<img src="img/3.jpg" >
+				<img src="img/4.jpg" >
+				<img src="img/5.jpg" >
+				<img src="img/6.jpg" >
+				<img src="img/7.jpg" >
+			</div>
+		</div>
+	</body>
+</html>
